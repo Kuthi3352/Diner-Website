@@ -1,0 +1,67 @@
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+header .navbar {
+    padding: 40px 0;
+}
+
+header .navbar-brand {
+    color: white;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+#navbarDinerHeader .nav-link {
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    transition: all .5s;
+}
+
+#navbarDinerHeader .nav-item:hover .nav-link {
+    color: #ff6600;
+}
+
+#navbarDinerHeader .form-inline {
+    position: relative;
+}
+
+#navbarDinerHeade button,
+input {
+    padding: 15px 35px 15px 10px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px transparent;
+}
+
+#navbarDinerHeader .search__icon {
+    position: absolute;
+    top: 15px;
+    right: 12px;
+
+}
+
+#navbarDinerHeader .nav-item::after {
+    content: "";
+    width: 0%;
+    height: 3px;
+    background: linear-gradient(to right, #fbbd61, #ec7532);
+    display: block;
+    box-shadow: 0 0 20px 0 #fbbd61;
+    transition: all .5s;
+}
+
+#navbarDinerHeader .nav-item:hover::after {
+    width: 100%;
+}
+
+#navbarDinerHeader .nav-item.active::after {
+    width: 100%;
+}
+
+#navbarDinerHeader .nav-item.active .nav-link {
+    color: #ff6600;
+}
