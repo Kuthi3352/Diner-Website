@@ -1,0 +1,59 @@
+.restaurants {
+    overflow: hidden;
+}
+
+.restaurants__content {
+    width: 50%;
+    padding-right: 0;
+}
+
+.restaurants__content:nth-of-type(2) {
+    background-color: #ff6600;
+}
+
+.restaurants__content>img {
+    width: 100%;
+    height: 100%;
+}
+
+.title--white>p {
+    color: #ffdfc9;
+    font-size: 18px;
+    line-height: 28px;
+    margin: 16px 0;
+}
+
+.restaurants__inner {
+    padding: 80px 60px;
+}
+
+.restaurants__item i {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 70px;
+    background-color: white;
+    color: #ff6600;
+    font-size: 25px;
+    border-radius: 6px;
+    transition: all .5s;
+}
+
+.restaurants__item i:hover {
+    color: #fcb900;
+}
+
+
+.restaurants__item h4 {
+    color: #232121;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 24px 0 23px;
+}
+
+.restaurants__item p {
+    color: #ffdfc9;
+    font-size: 18px;
+    line-height: 28px;
+}
