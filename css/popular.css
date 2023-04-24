@@ -1,0 +1,38 @@
+.popular {
+    background-color: #f7f7f7;
+}
+
+.popular__item {
+    width: 33%;
+    position: relative;
+}
+
+.popular__item img {
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    filter: brightness(90%);
+    transition: all .5s;
+}
+
+.popular__item img:hover {
+    opacity: 0.85;
+}
+
+.popular__text {
+    position: absolute;
+    bottom: 13px;
+    left: 60px;
+}
+
+.popular__text h5 {
+    font-size: 1.375rem;
+    color: white;
+    font-weight: 600;
+}
+
+.popular__text p {
+    font-size: 1.125rem;
+    color: #ffc600;
+    font-weight: 600;
+}
