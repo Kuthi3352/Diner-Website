@@ -22,7 +22,7 @@ body {
 }
 
 .title h3 {
-    font-size: 38px;
+    font-size: 37px;
     line-height: 48px;
     font-weight: 600;
     margin-bottom: 0;
@@ -186,4 +186,139 @@ input {
 .aboutUs__img img {
     width: 100%;
     border-radius: 8px;
+}
+
+.aboutUs .about__content p {
+    padding-left: 0;
+}
+
+.aboutUs__text h2 {
+    font-size: 2.375rem;
+    color: #232121;
+    font-weight: 600;
+}
+
+.aboutUs .btn {
+    background-color: #ff6600;
+    color: white;
+    transition: all .5s;
+    border-radius: 8px;
+    margin-top: 8px;
+
+}
+
+.aboutUs .btn:hover {
+    background-color: #ff6600;
+    color: white;
+    opacity: 0.8;
+}
+
+.aboutUs__bottom h3 {
+    color: #232121;
+    font-size: 2.375rem;
+    font-weight: 600;
+}
+
+.aboutUs__bottom h5 {
+    color: #ff6600;
+    font-size: 1.25rem;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.aboutUs__bottom p {
+    color: #161c2db3;
+    font-size: 1.125rem;
+    line-height: 28px;
+    margin-top: 5px;
+}
+
+/* skills */
+.skills {
+    background-color: #f7f7f7;
+}
+
+.skills__img {
+    width: 30%;
+}
+
+.skills__img img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.skills .title p {
+    color: #161c2db3;
+    font-size: 1.125rem;
+    margin: 16px 0;
+}
+
+.progress__info h5 {
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.progress__info .progress {
+    height: 6px;
+    background-color: rgb(22 28 46 / 70%);
+}
+
+.progress__info .progress-bar {
+    background-color: #ff6600;
+}
+
+/* team */
+.team__img {
+    width: 33.33%;
+}
+
+.team__img img {
+    width: 100%;
+    border-radius: 8px;
+    position: relative;
+}
+
+.team__text h4 {
+    font-weight: 700;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.team__text:hover h4 {
+    color: #ff6600;
+}
+
+.team__text p {
+    color: #161c2db3;
+}
+
+.team__overlay {
+    position: absolute;
+    bottom: 131px;
+    left: 116px;
+    opacity: 0;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.team__img:hover .team__overlay {
+    opacity: 1;
+}
+
+.team__overlay i {
+    width: 42px;
+    height: 42px;
+    text-align: center;
+    line-height: 42px;
+    background-color: #9d9d9d80;
+    color: white;
+    border-radius: 50%;
+    transition: all 0.5s;
+    margin-right: 5px;
+}
+
+.team__overlay i:hover {
+    background-color: white;
+    color: #ff6600;
 }
