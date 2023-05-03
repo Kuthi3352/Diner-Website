@@ -1,0 +1,70 @@
+.blog {
+    background: #f7f7f7;
+}
+.blog .card {
+    background-color: transparent;
+    border: none;
+}
+.blog a,
+.blog a:hover{
+    color: #232121;
+    text-decoration: none;
+} 
+.post__img img {
+    width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    border-radius: 6px;
+}
+.card__top .post__type {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.card__top .post__type a {
+    color: #ff6600;
+    transition: all .5s;
+}
+.card__top .post__type a:hover {
+    color: #5431ac;
+}
+.card__bottom a.post__des {
+    display: block;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin: 25px 0 15px;
+}
+.card__bottom .post__link {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__link a {
+    font-weight: 700;
+    letter-spacing: 0.35px;
+}
+.post__left {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+    align-items: center;
+}
+.post__left a img {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+a.post__right {
+    opacity: .9;
+    text-transform: capitalize;
+    transition: all .5s;
+}
+a.post__right:hover {
+    color: #ff6600;
+}
