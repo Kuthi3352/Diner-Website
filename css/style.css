@@ -45,7 +45,39 @@ body {
     font-weight: 600;
     margin-bottom: 0;
 }
-
+.title p{
+    font-size: 1.125rem;
+    line-height: 28px;
+    color: #161c2db3;
+}
 .inner {
     padding: 80px 0;
+}
+
+.btn {
+    padding: 15px 50px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 600;
+    margin-top: 45px;
+    transition: all .5s;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #ff6600;
+}
+
+.btn--orange {
+    padding: 18px 50px;
+    color: white;
+    border: 1px solid #ff6600;
+    font-weight: 600;
+    margin-top: 45px;
+    transition: all .5s;
+    background-color: #ff6600;
+    border-radius: 6px;
+}
+.btn--orange:hover{
+    opacity: 0.8;
 }
