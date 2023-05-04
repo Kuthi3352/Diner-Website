@@ -198,20 +198,7 @@ input {
     font-weight: 600;
 }
 
-.aboutUs .btn {
-    background-color: #ff6600;
-    color: white;
-    transition: all .5s;
-    border-radius: 8px;
-    margin-top: 8px;
 
-}
-
-.aboutUs .btn:hover {
-    background-color: #ff6600;
-    color: white;
-    opacity: 0.8;
-}
 
 .aboutUs__bottom h3 {
     color: #232121;
