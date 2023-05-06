@@ -1,0 +1,181 @@
+.dinerCarousel {
+    padding: 190px 0 140px;
+}
+.dinerCarousel__background {
+    height: 350px;
+    background-image: linear-gradient(to right, rgba(236, 98, 6, .98), rgba(5, 3, 0, .83)), url(../../img/banner2.jpg);
+    background-position: center;
+}
+.dinerCarousel ul.Post-page {
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.dinerCarousel ul.Post-page a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+/* main css */
+.blogpage_bg {
+    background-color: #f7f7f7;
+}
+.blog {
+    margin-bottom: 24px;
+}
+.card__top .post__type span.category a {
+    display: inline-block;
+    background: #ff6600;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .8px;
+    padding: 3px 20px;
+    margin-bottom: 5px;
+    border-radius: 35px;
+    line-height: 1.5;
+    border: 1px solid transparent;
+    transition: all .15s linear;
+}
+.post__type span.category a:hover {
+    color: #ff6600;
+    background-color: #fff;
+    border: 1px solid#ff6600;
+}
+.card__top .post__type span.info {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 10px;
+    letter-spacing: .32px;
+}
+ul.pagination__number li {
+    display: inline-block;
+    margin: 0 8px;
+}
+ul.pagination__number li a {
+    display: block;
+    padding: 8px 16px;
+    background-color: #f7f7f7;
+    border: 1px solid #eee;
+    font-weight: 700;
+    border-radius: 6px;
+    color: rgba(22, 28, 45, 0.7);
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+    line-height: 24px;
+    transition: all .15s linear;
+}
+ul.pagination__number li a.active {
+    color: #fff;
+    border-color: #ff6600;
+    background-color: #ff6600;
+    cursor: none;  
+} 
+ul.pagination__number li a:hover {
+    color: #ff6600;
+    background-color: #fff;
+    border-color: #ff6600;
+} 
+.sidebar .sidebar__content {
+    position: sticky;
+    top: 100px;
+}
+.sidebar .sidebar__item {
+    padding: 40px 30px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    border-radius: 6px;
+}
+section#search input.search-field {
+    padding: 12px 70px 12px 17px; 
+    border: 1px solid #eee;
+    outline: none;
+    height: 55px;
+    font-size: 18px;
+    color: rgba(22, 28, 45, 0.7);
+    width: 100%;
+}
+section#search input.search-field:focus {
+    border-color: black;
+    box-shadow: none;
+}
+section#search input.search-submit {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-size: 16px;
+    line-height: 1.5;
+    background: #ff6600;
+    color: #fff;
+    padding: 6px 12px;
+    display: inline-block;
+    height: 50px;
+    transition: all .5s;
+}
+section#search input.search-submit:hover {
+    opacity: .7;
+}
+.sidebar__item h2.sidebar-title {
+    font-size: 26px;
+    line-height: 38px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #232121;
+}
+section ul li{
+    list-style: none;
+    position: relative;
+}
+section#recent-posts ul li {
+    margin-bottom: 15px;
+}
+section#recent-posts ul li a,
+section#archives ul li a,
+section#categories ul li a,
+section#meta ul li a {
+    text-transform: capitalize;
+    line-height: 25px;
+    font-size: 19px;
+    color: rgba(22, 28, 45, 0.7);
+    font-weight: 500;
+    display: block;
+    padding: 5px 0;
+    width: 100%;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+section#archives ul li a,
+section#categories ul li a,
+section#meta ul li a {
+    padding: 10px 15px 10px 20px;
+}
+section#archives a::before,
+section#categories a::before,
+section#meta a::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background-color: rgba(22, 28, 45, 0.7);
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    opacity: .3;
+    border: 1px solid #f7f7f7;
+}
+section#recent-posts a:hover,
+section#archives a:hover,
+section#categories a:hover,
+section#meta a:hover {
+    color: #ff6600;
+}
+section#recent-comments ul li {
+    margin: 20px 0;
+}
+section#recent-comments ul li a {
+    color: #ff6600;
+    font-size: 16px;
+    font-weight: 500;
+}
