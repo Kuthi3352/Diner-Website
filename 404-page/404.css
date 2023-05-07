@@ -1,4 +1,47 @@
 /* ror */
 .ror h1{
 font-size: 8.125rem;
+font-weight: bold;
+}
+.ror h3{
+    font-size: 1.75rem;
+    margin-bottom: 10px;
+}
+.ror input{
+    background-color: #f7f7f7;
+    border: 1px solid #ced4da;
+    color: rgb(22 28 45 / 70%);
+    padding: 12px 120px 12px 25px;
+    font-size: 18px;
+    line-height: 28px;
+    height: 55px;
+    margin-right: 15px;
+ 
+}
+.ror input:focus{
+border: 1px solid #ff6600;
+}
+.ror button{
+    font-size: 18px;
+    padding: 11px 40px;
+}
+.ror a{
+    text-decoration: none;
+    color: #232121;
+   font-weight: 600;
+    margin-top: 48px;
+    display:inline-block;
+    font-size: 18px;
+    padding-left: 10px;
+  transition: all 0.5s;
+}
+.ror span{
+    transition: all 0.5s;
+}
+.ror span:hover{
+    color: #ff6600;
+}
+.ror a>i{
+    font-size: 0.875rem;
+    vertical-align: 1px;
 }
