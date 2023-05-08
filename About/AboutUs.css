@@ -310,3 +310,114 @@ input {
     background-color: white;
     color: #ff6600;
 }
+
+/* AN HUYÊN (CODE) */
+
+.footer__bg {
+    background: #000;
+}
+.footer__bg a {
+    text-decoration: none;
+}
+.footer__logo h2 {
+    margin: 0;
+}
+.footer__logo a {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+    transition: all .5s;
+}
+.footer__inner p, .footer__inner ul li a {
+    font-size: 17px;
+    color: #a5a2a1;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    transition: all .5s;
+}
+.footer__logo a:hover, .footer__inner ul li a:hover {
+    color: #ff6600;
+}
+.footer__inner ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer__social a {
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #fff;
+    color: #ff6600;
+    display: inline-block;
+    border-radius: 6px;
+    margin-right: 10px;
+    transition: all .3s;
+}
+.footer__social a:hover {
+    color: #fff;
+    background-color: #ff6600;
+}
+.footer__inner h6.title {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.footer__inner form input[type='email'] {
+    padding: 14px 20px;
+    font-size: 18px;
+    line-height: 28px;
+    border: 1px solid transparent;
+    outline: none;
+    width: 100%;
+    color: rgba(22, 28, 45, 0.7);
+    color: #fff;
+    border-radius: 6px;
+}
+.footer__inner form input[type='email']:focus {
+    border: 1px solid #ff6600;
+    background: #fff;
+}
+footer .copyright {
+    background: #000;
+    padding: 19.2px 0;
+    border-top: 1px solid rgba(255, 255, 255, .05);
+}
+.copyright p {
+    font-size: 17px;
+    align-self: center;
+    line-height: 28px;
+    color: #ddd;
+    margin: 0;
+}
+.copyright p a {
+    color: #ff6600;
+    transition: all .5s;
+    text-decoration: none;
+}
+.copyright p a:hover {
+    color: #fff;
+}
+.btn-style {
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #fff;
+    border: 2px solid #ff6600;
+    background: #ff6600;
+    transition: all .5s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border: 2px solid #ff6600;
+    background: #ff6600;
+    opacity: .8;
+}
