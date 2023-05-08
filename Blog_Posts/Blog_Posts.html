@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="../css/blog.css">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="./css/Blog_Posts.css">
+    <link rel="stylesheet" href="./Blog_Posts.css">
 </head>
 
 <body>
@@ -44,12 +44,12 @@
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Diner</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDinerHeader"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    aria-controls="navbarDinerHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars"></i>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarDinerHeader">
-                    <ul class="navbar-nav ml-auto">
+                <div class="collapse navbar-collapse position-relative" id="navbarDinerHeader">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home</a>
                         </li>
@@ -63,25 +63,26 @@
                             <a class="nav-link" href="#">Blog Posts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">404 page</a>
+                            <a class="nav-link">404 page</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Elements</a>
+                            <a class="nav-link">Elements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
+                            <a class="nav-link">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Landing page</a>
                         </li>
-
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input type="search" class="search__input header__search" name="s" placeholder="Search here.."
-                            onload="equalWidth()" required="">
+                    <form class="form-inline my-2 my-lg-0 ">
+                        <input class="search__input form-control mr-sm-2" type="search" placeholder="Search...">
                         <span class="fa fa-search search__icon "></span>
                     </form>
+
                 </div>
+
+
             </nav>
         </div>
     </header>
@@ -104,9 +105,9 @@
                     <h3 class="mb-5">Blog Posts</h3>
                 </div>
                 <div class="row">
-                    <div class="col-8 pr-4">
+                    <div class="col-12 col-lg-8 pr-4">
                         <div class="row">
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -145,7 +146,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -184,7 +185,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -223,7 +224,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -262,7 +263,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -301,7 +302,7 @@
                                     </div>
                                 </article>
                             </div>
-                            <div class="col-6 mb-4">
+                            <div class="col-12 col-md-6 mb-4">
                                 <article class="blog">
                                     <div class="card">
                                         <div class="card__top position-relative">
@@ -355,7 +356,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="sidebar col-4">
+                    <div class="col-12 col-lg-4 mt-5 mt-lg-0 sidebar">
                         <aside class="sidebar__content">
                             <section class="sidebar__item" id="search">
                                 <form action="" class="position-relative">
@@ -382,14 +383,16 @@
                                         <span>
                                             <a href="https://wordpress.org/">A WordPress Commenter</a>
                                         </span>
-                                         on 
-                                        <a href="#">Hello world!</a></li>
+                                        on
+                                        <a href="#">Hello world!</a>
+                                    </li>
                                     <li>
                                         <span>
                                             <a href="https://wordpress.org/">A WordPress Commenter</a>
                                         </span>
-                                         on 
-                                        <a href="#">Hello world!</a></li>
+                                        on
+                                        <a href="#">Hello world!</a>
+                                    </li>
                                 </ul>
                             </section>
                             <section class="sidebar__item" id="archives">
@@ -428,7 +431,7 @@
             <div class="footer__inner py-5">
                 <div class="container py-4">
                     <div class="row">
-                        <div class="col-4 pr-5">
+                        <div class="col-12 col-sm-7 col-md-6 col-lg-4 pr-lg-5">
                             <div class="footer__logo mb-3">
                                 <h2>
                                     <a href="#">Diner</a>
@@ -451,7 +454,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="col-2">
+                        <div class="col-6 col-sm-5 col-md-6 col-lg-2 mt-5 mt-sm-0">
                             <div>
                                 <h6 class="title">Categories</h6>
                                 <ul>
@@ -464,7 +467,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-2">
+                        <div class="col-6 col-sm-5 col-md-6 col-lg-2 mt-5 mt-lg-0">
                             <div>
                                 <h6 class="title">Archives</h6>
                                 <ul>
@@ -474,7 +477,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-12 col-sm-7 col-md-6 col-lg-4 mt-5 mt-lg-0">
                             <h6 class="title">Subscribe to our Newsletter </h6>
                             <p>Enter your email and receive the latest news, updates and special offers from us.</p>
                             <form action="" class="mt-4" method="post">
@@ -489,9 +492,9 @@
         <div class="copyright">
             <div class="container">
                 <div class="row">
-                    <p class="col-8">© 2023 Diner. All Rights Reserved | WordPress Theme by <a href="">W3Layouts.</a>
+                    <p class="col-lg-8">© 2023 Diner. All Rights Reserved | WordPress Theme by <a href="">W3Layouts.</a>
                     </p>
-                    <div class="col-4"></div>
+                    <div class="col-lg-4"></div>
                 </div>
             </div>
         </div>

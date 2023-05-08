@@ -1,3 +1,29 @@
+#navbarDinerHeader form input.search__input {
+    padding: 10px 50px 10px 20px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: #fff;
+    outline: none;
+    position: relative;
+    right: 0;
+}
+#navbarDinerHeader form input.search__input:focus {
+    box-shadow: none;
+}
+#navbarDinerHeader form span.search__icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar button i {
+    color: #fff;
+    font-size: 20px;
+}
 .dinerCarousel {
     padding: 190px 0 140px;
 }
@@ -7,6 +33,10 @@
     background-position: center;
 }
 .dinerCarousel ul.Post-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     vertical-align: middle;
     font-size: 18px;
     line-height: 24px;
@@ -179,3 +209,31 @@ section#recent-comments ul li a {
     font-size: 16px;
     font-weight: 500;
 }
+
+/* Responsive */
+@media screen and (max-width: 991px) {
+    .card__bottom a.post__des {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .copyright p {
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #eee;
+        text-align: center;
+        padding: 40px;
+    }
+    #navbarDinerHeader .nav-link {
+        color: #232121;
+    }
+    #navbarDinerHeader form input.search__input {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+    #navbarDinerHeader form span.search__icon {
+        top: 25px;
+    }
+}
+
