@@ -66,6 +66,13 @@
     border: 1px solid #ff6600;
     background: #fff;
 }
+.footer__inner .btn-primary:focus,
+.footer__inner .btn-primary:active {
+    box-shadow: none !important;
+    background-color: #ff6600 !important;
+    color: #fff;
+    border: 2px solid #ff6600;
+}
 footer .copyright {
     background: #000;
     padding: 19.2px 0;
