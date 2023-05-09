@@ -1,0 +1,151 @@
+/* contactUs */
+.contactUs__item{
+    background-color: #f7f7f7;
+    color: rgb(22 28 45 / 70%);
+    font-size: 1.125rem;
+    border: 1px transparent;
+    padding: 12px 20px;
+    line-height: 28px;
+    width: 100%;
+    border-radius: 6px;
+    height: 58px;
+    margin-bottom: 20px;
+}
+.form__message{
+    background-color: #f7f7f7;
+    color: rgb(22 28 45 / 70%);
+    font-size: 1.125rem;
+    border: 1px transparent;
+    border-radius: 6px;
+    line-height: 28px;
+    
+    padding: 12px 20px;
+    resize: none;
+}
+.contactUs__item:focus,
+.form__message:focus{
+    border: 1px solid #ff6600;
+    box-shadow: none;
+    background-color: #fff;
+    outline: none;
+}
+
+/* findUs */
+.findUs__item{
+    display: grid;
+    grid-template-columns: 20px auto;
+    gap: 20px;
+}
+.findUs__item h5{
+    color: #232121;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.findUs__item a{
+    text-decoration: none;
+    color: rgb(22 28 45 / 70%);
+    font-size: 1.125rem;
+    line-height: 28px;
+}
+.findUs__item p{
+    color: rgb(22 28 45 / 70%);
+    font-size: 1.125rem;
+    line-height: 28px;
+    padding-right: 80px;
+}
+.findUs__icon i{
+    color: #ff6600;
+    margin-top: 5px;
+    font-size: 1.125rem;
+}
+.findUs__map{
+    width: 100%; 
+   
+}
+.findUs__map iframe{
+    box-shadow: 0 0 0 10px #f7f7f7;
+    border-radius: 3px;
+}
+
+/* responsive  */
+@media screen and (max-width: 1080px){
+    .contactUs .title h3{
+        font-size: 32px;
+    }
+    /* findUs  */
+.findUs .title h3{
+    font-size: 32px;
+}
+
+}
+@media screen and (max-width: 991.98px){
+    .findUs__map{
+        height: 400px;
+        margin-top: 40px;
+    }
+}
+.findUs.inner{
+    padding: 75px 0;
+}
+
+
+@media screen and (max-width: 767.98px){
+    .contactUs.inner{
+        padding: 60px 0;
+    }
+    .findUs.inner{
+        padding: 60px 0;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .contactUs .title h6{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .contactUs .title h3{
+        font-size: 30px;
+    }
+    /* findUs */
+    .findUs .title h3{
+        font-size: 30px;
+    }
+    .findUs .title h6{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .findUs.inner{
+        padding: 0 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+.contactUs__input{
+    display: block;
+}
+.contactUs .title h3{
+    font-size: 26px;
+}
+.aboutCarousel__text {
+    width: 54%;
+}
+   /* findUs */
+   .findUs__map{
+    padding-bottom: 50px;
+   }
+
+
+}
+
+
+
+@media screen and (max-width: 393px){
+    .aboutCarousel__text {
+        width: 60%;
+    }
+}
