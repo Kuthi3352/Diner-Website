@@ -26,41 +26,44 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../services/services.css">
+    <link rel="stylesheet" href="../css/header.css">
 
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container header__toggler">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Diner</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDinerHeader"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarDinerHeader">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="./AboutUs.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Services</a>
+                            <a class="nav-link disabled" href="../services/services.html">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Blog Posts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">404 page</a>
+                            <a class="nav-link disabled" href="../404-page/404.html">404 page</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Elements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contact</a>
+                            <a class="nav-link disabled" href="../contact/contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Landing page</a>
@@ -91,10 +94,10 @@
                 <h3>About Us</h3>
             </div>
             <div class="row">
-                <div class="col-6 aboutUs__img">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 aboutUs__img">
                     <img src="../img/banner1.jpg" alt="banner1">
                 </div>
-                <div class="col-6 ">
+                <div class="col-12 col-md-12 col-lg-6 col-xl-6 ">
                     <div class="aboutUs__text pl-4">
                         <div class="title">
                             <h2>We found our creative space that is open for you.</h2>
@@ -119,18 +122,18 @@
                 </div>
             </div>
             <div class="row aboutUs__bottom mt-5">
-                <div class="col-4 d-flex align-items-center">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 d-flex align-items-center aboutUs__bottomContent">
                     <h3>What we Do ?.</h3>
                 </div>
-                <div class="col px-0 ">
+                <div class="col-12 col-sm-12 col-md-6 col-lg col-xl px-0  aboutUs__bottomText">
                     <h5>Strategy and Timing</h5>
                     <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
                 </div>
-                <div class="col px-0 pl-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg col-xl px-0 pl-3 aboutUs__bottomText">
                     <h5>Leaders Of Tomorrow</h5>
                     <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
                 </div>
-                <div class="col px-0 pl-3">
+                <div class="col-12 col-sm-12 col-md-6 col-lg col-xl px-0 pl-3 aboutUs__bottomText">
                     <h5>Brand - Centered Buying</h5>
                     <p>Phasellus lacinia id erat eu ullamcorper. Nunc id ipsum fringilla.</p>
                 </div>
@@ -140,7 +143,7 @@
     <section class="skills inner">
         <div class="container">
             <div class="row">
-                <div class="col-5 pl-0 pr-5">
+                <div class="col-12 col-lg-5 col-xl-5 pl-0 pr-5 progress__info1">
                     <div class="title">
                         <h6>Skills</h6>
                         <h3>Strategy is at the Heart of What We Do</h3>
@@ -171,10 +174,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col skills__img">
+                <div class="col-6 col-lg col-xl skills__img">
                     <img src="../img/g1.jpg" alt="g1">
                 </div>
-                <div class="col skills__img">
+                <div class="col-6 col-lg col-xl skills__img">
                     <img src="../img/g2.jpg" alt="g2">
                 </div>
             </div>
@@ -187,7 +190,7 @@
                 <h3>Meet Our Chefs</h3>
             </div>
             <div class="row mt-5">
-                <div class="col-4 team__img">
+                <div class="col-6 col-lg-4 col-xl-4 team__img">
                     <img src="../img/chef2.jpg" alt="chef2">
                     <div class="team__overlay">
 
@@ -200,7 +203,7 @@
                         <p>Chef</p>
                     </div>
                 </div>
-                <div class="col-4 team__img">
+                <div class="col-6 col-lg-4 col-xl-4 team__img">
                     <img src="../img/chef1.jpg" alt="chef1">
                     <div class="team__overlay">
                         <a href="https://www.facebook.com/w3layouts/"><i class="fab fa-facebook-f"></i></a>
@@ -213,9 +216,9 @@
                     </div>
 
                 </div>
-                <div class="col-4 team__img">
+                <div class="col-12 col-lg-4 col-xl-4 team__img">
                     <img src="../img/chef2.jpg" alt="chef2">
-                    <div class="team__overlay">
+                    <div class="team__overlay overlay__end">
                         <a href="https://www.facebook.com/w3layouts/"><i class="fab fa-facebook-f"></i></a>
                         <a href="https://twitter.com/W3layouts"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.instagram.com/w3layouts_/"><i class="fab fa-instagram"></i></a>

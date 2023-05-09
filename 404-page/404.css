@@ -18,6 +18,13 @@ font-weight: bold;
     margin-right: 15px;
  
 }
+.ror__block{
+    max-width: 600px;
+    margin: 0 auto;
+}
+.ror.inner{
+    padding: 75px 0;
+}
 .ror input:focus{
 border: 1px solid #ff6600;
 }
@@ -45,3 +52,93 @@ border: 1px solid #ff6600;
     font-size: 0.875rem;
     vertical-align: 1px;
 }
+
+/* responsive  */
+@media screen and (max-width: 991.98px){
+    /* ror  */
+    .ror h1 {
+        font-size: 100px;
+}
+}
+@media screen and (max-width: 767.98px){
+    .ror a {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 600px){
+    .ror .ror__block p{
+        font-size: 1rem;
+        line-height: 20px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 575px){
+    .ror__form{
+        display: flex;
+    }
+
+.ror input {
+    background-color: #f7f7f7;
+    border: 1px solid #ced4da;
+    color: rgb(22 28 45 / 70%);
+    padding: 12px 120px 12px 25px;
+    font-size: 18px;
+    line-height: 28px;
+    height: 55px;
+    flex: 1 1 auto;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-right: 0;
+    
+}
+.ror button {
+    margin-top: 0 !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+}
+
+@media screen and (max-width: 568.98px){
+    .ror h1 {
+        font-size: 80px;
+}
+}
+@media screen and (max-width: 480px){
+    .ror input {
+        padding: 12px 20px 12px 25px;
+}
+.aboutCarousel__text.page__404{
+    width: 47%;
+}
+.ror.inner {
+    padding: 50px 0;
+}
+
+}
+@media screen and (max-width: 385px){
+    .ror .ror__form{
+        display: block ;
+    }
+    .ror input {
+        padding: 12px 120px 12px 25px;
+        margin-bottom: 10px;
+        border-radius: 8px;
+}
+.ror__form button{
+    width: 100%;
+    border-radius: 8px;
+}
+}
+
+/* @media screen and (max-width: 375px){
+  
+.ror button {
+    font-size: 18px;
+    padding: 11px 20px;
+}
+} */
