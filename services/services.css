@@ -6,78 +6,6 @@
     transform: translate(-50%, -50%);
     letter-spacing: 1px;
 }
-/* banner */
-.banner__background{
-    border: 1px solid #ededed;
-    padding: 37px 29px;
-    border-radius: 8px;
-    box-shadow: 0 25px 98px 0 rgba(0, 0, 0, 0.03);
-}
-.banner__icon i{
-    width: 70px;
-    height: 70px;
-    line-height: 69px;
-    text-align: center;
-    background-color: #f9f8ff;
-    border: 1px solid #f9f8ff;
-    color: #ff6600;
-    border-radius: 8px;
-    font-size: 25px;
-    transition: all .5s;
-}
-.banner__background:hover .banner__icon i{
-    background-color: #ff6600;
-    color:white;
-}
-.banner__text h5{
-    font-size: 1.125rem;
-    color: #161c2db3;
-}
-.banner__text a {
-    text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-size: 1.25rem;
-}
-.banner__background p{
-    font-size: 1.125rem;
-    line-height: 28px;
-    color: #161c2db3;
-    margin: 20px 0 0;
-}
-/* deliciousness */
-.deliciousness{
-    position: relative;
-    padding: 100px 0 167px;
-}
-.deliciousness__overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-image: url(../img/banner2.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 490px;
-    filter: brightness(40%);
-    
-
-}
-.deliciousness__button .btn{
-   margin-top: 0; 
-}
-.deliciousness__button .btn--Orange{
-    margin-top: 0;
-    padding: 18px 50px;
-}
-.deliciousness h1{
-    font-size: 2.8125rem;
-    color:white;
-   font-weight: 600;
-}
-
-/* AN HUYÊN (CODE) */
-
 /* PLANS */
 .border-dot {
     border-bottom: 2px dotted #bbb;
@@ -207,4 +135,50 @@ footer .copyright {
     border: 2px solid #ff6600;
     background: #ff6600;
     opacity: .8;
+}
+@media screen and (max-width: 1080px){
+
+    /* title */
+    .plans .title h3 {
+        font-size: 32px;
+        line-height: 40px;
+        
+    }    
+}
+@media screen and (max-width: 600px){
+
+    /* title */
+    .plans .title h3 {
+        font-size: 30px;
+        line-height: 38px;
+        
+    }    
+    .plans .title h6 {
+        font-size: 16px;
+
+        
+    } 
+}
+@media screen and (max-width: 480px){
+
+    /* title */
+    .plans .title h3 {
+        font-size: 26px;
+        line-height: 36px;
+        
+    }    
+}
+@media screen and (max-width: 375px){
+
+    /* title */
+    .plans .title h3 {
+        font-size: 24px;
+        line-height: 34px;
+        
+    }    
+    .plans .title h6 {
+        font-size: 16px;
+        letter-spacing: .5px;
+        
+    } 
 }
