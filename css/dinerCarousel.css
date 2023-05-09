@@ -1,5 +1,5 @@
 .dinerCarousel {
-    padding: 155px 0 204px;
+    padding: 158px 0 158px;
 }
 
 
@@ -9,7 +9,7 @@
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    height: 750px;
+    height: 700px;
     position: absolute;
     top: 0;
     left: 0;
@@ -23,11 +23,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 750px;
+    height: 700px;
 }
 
 .dinerCarousel__content {
     position: relative;
+    max-width: 594px;
 
 }
 
@@ -37,6 +38,7 @@
     font-weight: 600;
     color: #fff;
     margin-bottom: 24px;
+    margin-top: 8px;
 }
 
 .dinerCarousel__content p {
@@ -46,3 +48,65 @@
     margin-top: 24px;
 }
 
+/* RESPONSIVE  */
+@media screen and (max-width: 1190px){
+    .dinerCarousel__content h1{
+        font-size: 3rem;
+        line-height: 58px;
+    }
+    .dinerCarousel__content{
+        margin-top: 45px;
+    }
+
+}
+@media screen and (max-width: 991.98px){
+    .dinerCarousel__content h1{
+        font-size: 2.75rem;
+        line-height: 53px;
+    }
+   
+}
+@media screen and (max-width: 799.98px){
+    .dinerCarousel__content h1{
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .dinerCarousel__content{
+        margin-top: 0;
+    }
+    .dinerCarousel__background {
+    height: 600px;
+} 
+.dinerCarousel__overlay {
+    height: 600px;
+}
+}
+@media screen and (max-width: 668px){
+    .dinerCarousel {
+        padding: 150px 0 100px;
+    }
+    
+}
+@media screen and (max-width: 575.98px){
+    .btn {
+        margin-top: 10px;
+}
+}
+@media screen and (max-width: 479.98px){
+    .dinerCarousel__content h1{
+        font-size: 1.75rem;
+        line-height: 38px;
+    }
+    .dinerCarousel {
+        padding: 88px 0 0;
+    }
+    .btn{
+        padding: 10px 23px;
+    }
+    .dinerCarousel__background {
+        height: 450px;
+}
+.dinerCarousel__overlay {
+    height: 450px;
+}
+}

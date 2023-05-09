@@ -11,7 +11,7 @@
     width: 100%;
     margin-top: 30px;
     border-radius: 10px;
-    filter: brightness(90%);
+    filter: brightness(85%);
     transition: all .5s;
 }
 
@@ -35,4 +35,54 @@
     font-size: 1.125rem;
     color: #ffc600;
     font-weight: 600;
+}
+
+/* responsive */
+@media screen and (max-width: 767.98px) {
+    .popular.inner{
+        padding: 48px 0;
+    }
+    .popular__text{
+        position: absolute;
+    bottom: 0;
+    left: 40px;
+    }
+    .popular__text h5{
+        font-size: 1.125rem;
+    }
+    .popular__text p{
+        font-size: 1rem;
+        margin-top: 14px;
+    }
+}
+@media screen and (max-width: 600px){
+    .popular .title h6{
+font-size: 1rem;
+    }
+    .popular .title h3{
+        font-size: 1.875rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .popular__text {
+        position: absolute;
+        bottom: 2px;
+        left: 37px;
+    }
+
+    .popular__text h5 {
+        font-size: 18px;
+    }
+
+    .popular__text p {
+        font-size: 1rem;
+    }
+    .popular .title h3{
+        font-size: 26px;
+    }
+}
+@media screen and (max-width: 375px){
+    .popular .title h3{
+        font-size: 24px;
+    }
 }

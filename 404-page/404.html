@@ -24,42 +24,46 @@
        <link rel="stylesheet" href="../css/style.css">
        <link rel="stylesheet" href="../css/header.css">
        <link rel="stylesheet" href="../About/AboutUs.css">
-       <link rel="stylesheet" href="../404-page/404.css">
+       <link rel="stylesheet" href="./404.css">
        <link rel="stylesheet" href="../services/services.css">
+       <link rel="stylesheet" href="../contact/contact.css">
+<link rel="stylesheet" href="../css/about.css">
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container header__toggler">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="#">Diner</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDinerHeader"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon">
+                      <i class="fa-solid fa-bars"></i>
+                    </span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarDinerHeader">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="#">Home</a>
+                            <a class="nav-link" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="nav-link" href="../About/AboutUs.html">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Services</a>
+                            <a class="nav-link disabled" href="../services/services.html">Services</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Blog Posts</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">404 page</a>
+                            <a class="nav-link disabled" href="./404.html">404 page</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Elements</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contact</a>
+                            <a class="nav-link disabled" href="../contact/contact.html">Contact</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Landing page</a>
@@ -78,18 +82,18 @@
     <section class="aboutCarousel">
         <div class="aboutCarousel__background"></div>
         <div class="aboutCarousel__overlay"></div>
-        <div class="aboutCarousel__text">
+        <div class="aboutCarousel__text page__404">
             <a href="../index.html">Home</a>
             <span> » 404 page </span>
         </div>
     </section>
     <section class="ror inner">
         <div class="container">
-            <div class="title text-center">
+            <div class="title text-center ror__block">
                 <h1>4<i class="fa-regular fa-face-frown"></i>4</h1>
                 <h3>Oops, Page not found!</h3>
-                <p class="mt-4">Sorry, we're offline right now to make our site even better. Please, <br> comeback later and check what we've been upto.</p>
-                <form action="" class="mt-4" method="post">
+                <p class="mt-4">Sorry, we're offline right now to make our site even better. Please, comeback later and check what we've been upto.</p>
+                <form action="" class="mt-4 ror__form" method="post">
                     <input type="email" name="Email" id="" placeholder="Enter your text" required>
                     <button class="btn-style btn-primary mt-3">Search</button>
                   </form>

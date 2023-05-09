@@ -51,18 +51,22 @@ body {
     color: #161c2db3;
 }
 .inner {
-    padding: 80px 0;
+    padding: 100px 0;
 }
 
 .btn {
-    padding: 15px 50px;
+    padding: 12px 47px;
     color: white;
     border: 2px solid white;
-    font-weight: 600;
-    margin-top: 45px;
+    font-weight: 700;
+    margin-top: 30px;
     transition: all .5s;
+    border-radius: 6px;
+    line-height: 30px;
 }
-
+.btn i{
+    padding-left: 6px;
+}
 .btn:hover {
     background-color: white;
     color: #ff6600;
@@ -80,4 +84,17 @@ body {
 }
 .btn--orange:hover{
     opacity: 0.8;
+}
+
+/* RESPONSIVE  */
+@media screen and (min-width: 1280px){
+    .container{
+        max-width: 1200px;
+    }
+}
+@media screen and (max-width: 480px){
+    .btn,
+    .btn--orange{
+        padding:17px 23px ;
+    }
 }
