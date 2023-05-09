@@ -121,7 +121,7 @@
     display: grid;
     align-items: center;
     z-index: 1;
-    height: 500px;
+    min-height: 500px;
     border-radius: 6px;
     overflow: hidden;
 }
@@ -161,15 +161,18 @@
 }
 
 #small-dialog {
-    width: 750px;
+    /* width: 750px; */
     margin: 40px auto;
     position: relative;
 }
-
+iframe {
+    max-width: 100%;
+}
 div#small-dialog iframe {
     width: 100%;
     height: 420px;
-    border-radius: 5px;
+    border-radius: 10px;
+    display: block;
 }
 
 .mfp-close-btn-in .mfp-close {
