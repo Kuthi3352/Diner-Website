@@ -4,9 +4,9 @@
     color: #161c2db3;
     padding: 0 0 0 39px;
 }
-/* .about {
-    margin-top: 20px;
-} */
+.about {
+  overflow: hidden;
+}
 
 /* responsive */
 @media screen and (max-width: 1080px){
@@ -57,7 +57,31 @@
     .about.inner{
         padding: 40px 0;
     }
+    .about .about__top{
+        margin: 79px 0 45px 15px;
+    }
+
 }
+@media screen and (min-width:455px) and (max-width: 507px){
+    .about .about__top{
+        margin: 15px 0 45px 15px;
+    }
+}
+@media screen and (min-width:454.98px) and (max-width: 480px){
+    .about .about__top{
+        margin: 95px 0 45px 15px;
+    }
+}
+/* @media screen and (max-width: 476px){
+    .about .about__top{
+        margin: 72px 0 45px 15px;
+    }
+}
+@media screen and (max-width: 470px){
+.about .about__top {
+    margin: 72px 0 45px 15px;
+}
+} */
 @media screen and (max-width: 414px){
     .about.inner{
         padding: 100px 0;
