@@ -146,7 +146,41 @@ display: none;
         right: 115px;
     }
 }
-
+@media screen and (max-width: 510px){
+    .header__search {
+        margin-left: 119px;
+    }
+    #navbarDinerHeader .search__icon {
+        position: absolute;
+        top: 18px;
+        right: 133px;
+    }
+}
+@media screen and (max-width: 495px){
+    .header__search {
+        margin-left: 115px;
+    }
+}
+@media screen and (max-width: 480px){
+    .header__search {
+        margin-left: 103px;
+    }
+}
+@media screen and (max-width: 470px){
+    .header__search {
+        margin-left: 96px;
+    }
+}
+@media screen and (max-width: 457px){
+    .header__search {
+        margin-left: 88px;
+    }
+    #navbarDinerHeader .search__icon {
+        position: absolute;
+        top: 18px;
+        right: 115px;
+    }
+}
 @media screen and (max-width: 414px){
     .header__search {
         margin-left: 89px;
