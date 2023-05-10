@@ -1,10 +1,57 @@
+#navbarDinerHeader form input.search__input {
+    padding: 10px 50px 10px 20px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 1px solid #fff;
+    background: #fff;
+    outline: none;
+    position: relative;
+    right: 0;
+}
+#navbarDinerHeader form input.search__input:focus {
+    box-shadow: none;
+}
+#navbarDinerHeader form span.search__icon {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navbar button i {
+    color: #fff;
+    font-size: 20px;
+}
 
-.aboutCarousel__text {
+.dinerCarousel {
+    padding: 190px 0 160px;
+}
+.dinerCarousel__background {
+    height: 350px;
+    background-image: linear-gradient(to right, rgba(236, 98, 6, .98), rgba(5, 3, 0, .83)), url(../../img/banner2.jpg);
+    background-position: center;
+}
+.dinerCarousel ul.Post-page {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    letter-spacing: 1px;
+    transform: translate(-50%,-50%);
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.dinerCarousel ul.Post-page a {
+    color: #ff6600;
+    text-decoration: none;
+}
+.dinerCarousel__text {
+    max-width: 100%;
+    position: relative;
 }
 /* PLANS */
 .border-dot {
@@ -144,6 +191,32 @@ footer .copyright {
         line-height: 40px;
         
     }    
+}
+@media screen and (max-width: 991px) {
+    .copyright p {
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #eee;
+        text-align: center;
+        padding: 40px;
+    }
+    #navbarDinerHeader .nav-link {
+        color: rgba(255, 102, 0, 0.5);
+        background-color: #eee;
+    }
+    #navbarDinerHeader .nav-item::after {
+        display: inline;
+        box-shadow: none;
+    }
+    #navbarDinerHeader form input.search__input {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 20px;
+    }
+    #navbarDinerHeader form span.search__icon {
+        top: 25px;
+    }
 }
 @media screen and (max-width: 600px){
 
