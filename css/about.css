@@ -72,16 +72,7 @@
         margin: 95px 0 45px 15px;
     }
 }
-/* @media screen and (max-width: 476px){
-    .about .about__top{
-        margin: 72px 0 45px 15px;
-    }
-}
-@media screen and (max-width: 470px){
-.about .about__top {
-    margin: 72px 0 45px 15px;
-}
-} */
+
 @media screen and (max-width: 414px){
     .about.inner{
         padding: 100px 0;
@@ -94,5 +85,30 @@
     .about .about__top h6{
         padding: 0 5px;
     }
+
+}
+@media screen and (min-width: 390px) and (max-width:479.98px){
+    .aboutCarousel__text {
+        width: 47%;
+        padding-left: 30px;
+    }
+    
+
+}
+@media screen and (min-width: 345px) and (max-width:389.98px){
+    .aboutCarousel__text {
+        width: 47%;
+        padding-left: 10px;
+    }
+}
+@media screen and (min-width: 345px) and (max-width: 478.98px){
+.aboutCarousel__text.about{
+    width: 54%;
+    padding-left: 20px;
+}
+.aboutCarousel__text.aboutContact {
+    width: 59%;
+    padding-left: 18px;
+}
 
 }

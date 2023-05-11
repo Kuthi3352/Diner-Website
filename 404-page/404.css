@@ -141,3 +141,25 @@ border: 1px solid #ff6600;
 }
 }
 
+
+
+@media screen and  (min-width: 386px) and (max-width:512px){
+.ror input {
+    padding: 12px 0px 12px 25px;
+}
+.ror__form {
+    padding: 0 20px ;
+
+}
+.ror button {
+    font-size: 18px;
+    padding: 11px 20px;
+}
+
+}
+
+@media screen and  (min-width: 330px) and (max-width:370px){
+    .ror input {
+        padding: 12px 90px 12px 25px;
+    }
+}
