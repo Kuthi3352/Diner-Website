@@ -71,7 +71,7 @@
     box-shadow: none !important;
     background-color: #ff6600 !important;
     color: #fff;
-    border: 2px solid #ff6600;
+    border: 2px solid #ff6600 !important;
 }
 footer .copyright {
     background: #000;

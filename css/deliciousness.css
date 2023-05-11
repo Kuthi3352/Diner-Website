@@ -64,7 +64,13 @@
     background: #ff6600;
     opacity: .8;
 }
-
+.btn-primary:focus,
+.btn-primary:active {
+    box-shadow: none !important;
+    background-color: #ff6600 !important;
+    color: #fff;
+    border: 2px solid #ff6600 !important;
+}
 /* DELICIOUSNESS MIDDLE */
 .deliciousness__middle {
     position: relative;

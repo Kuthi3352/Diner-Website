@@ -24,6 +24,9 @@
     color: #fff;
     font-size: 20px;
 }
+.navbar-nav {
+    padding-left: 100px;
+}
 .dinerCarousel {
     padding: 190px 0 160px;
 }
@@ -233,6 +236,9 @@ section#recent-comments ul li a {
     }
     .copyright p {
         text-align: center;
+    }
+    .navbar-nav {
+        padding-left: 0;
     }
     .navbar-collapse {
         background: #eee;

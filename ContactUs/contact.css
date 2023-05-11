@@ -67,6 +67,27 @@
     border-radius: 3px;
 }
 
+
+.btn-style {
+    padding: 12px 45px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    border-radius: 6px;
+}
+.btn-primary {
+    color: #fff;
+    border: 2px solid #ff6600;
+    background: #ff6600;
+    transition: all .5s;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    border: 2px solid #ff6600;
+    background: #ff6600;
+    opacity: .8;
+}
 /* responsive  */
 @media screen and (max-width: 1080px){
     .contactUs .title h3{

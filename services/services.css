@@ -1,4 +1,4 @@
-/* #navbarDinerHeader form input.search__input {
+#navbarDinerHeader form input.search__input {
     padding: 10px 50px 10px 20px;
     height: 45px;
     font-size: 16px;
@@ -23,8 +23,10 @@
 .navbar button i {
     color: #fff;
     font-size: 20px;
-} */
-
+}
+.navbar-nav {
+    padding-left: 100px;
+}
 .dinerCarousel {
     padding: 190px 0 160px;
 }
@@ -196,7 +198,10 @@ footer .copyright {
     .copyright p {
         text-align: center;
     }
-    /* .navbar-collapse {
+    .navbar-nav {
+        padding-left: 0;
+    }
+    .navbar-collapse {
         background: #eee;
         text-align: center;
         padding: 40px;
@@ -216,7 +221,7 @@ footer .copyright {
     }
     #navbarDinerHeader form span.search__icon {
         top: 25px;
-    } */
+    }
 }
 @media screen and (max-width: 600px){
 
