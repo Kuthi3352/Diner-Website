@@ -249,6 +249,9 @@ section#recent-comments ul li a {
     .navbar-nav {
         padding-left: 0;
     }
+    #navbarDinerHeader .navbar-nav {
+        background-color: #eee;
+    }
     .navbar-collapse {
         background: #eee;
         text-align: center;
