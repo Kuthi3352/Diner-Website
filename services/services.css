@@ -185,6 +185,16 @@ footer .copyright {
     background: #ff6600;
     opacity: .8;
 }
+@media screen and (max-width: 1280px) {
+    .navbar-nav {
+        padding-left: 50px;
+    }
+    #navbarDinerHeader .nav-link {
+        padding: 10px 0;
+        margin: 0 3px;
+    }
+
+}
 @media screen and (max-width: 1080px){
 
     /* title */
@@ -192,7 +202,8 @@ footer .copyright {
         font-size: 32px;
         line-height: 40px;
         
-    }    
+    }
+    
 }
 @media screen and (max-width: 991px) {
     .copyright p {

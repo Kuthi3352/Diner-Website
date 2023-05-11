@@ -219,7 +219,16 @@ section#recent-comments ul li a {
 
 /* Responsive */
 
+@media screen and (max-width: 1280px) {
+    .navbar-nav {
+        padding-left: 50px;
+    }
+    #navbarDinerHeader .nav-link {
+        padding: 10px 0;
+        margin: 0 3px;
+    }
 
+}
 @media screen and (max-width: 1080px){
 
     /* title */
